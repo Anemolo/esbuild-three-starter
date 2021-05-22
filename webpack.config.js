@@ -28,7 +28,7 @@ module.exports = {
   //   watch: true,
   //   devtool: "eval-source-map",
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: path.join(__dirname, "web"),
     compress: true,
     port: 1236,
   },
@@ -36,7 +36,7 @@ module.exports = {
   ignoreWarnings: [{ module: /GLTFLoader.js/ }],
   output: {
     // publicPath: PATHS.build,
-    path: path.join(__dirname, "web", "build"),
+    path: path.join(__dirname, "web"),
     filename: "[name].js",
     chunkFilename: "[name].js",
   },

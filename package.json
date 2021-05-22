@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@unseenco/e": "^1.9.0",
     "css-loader": "^5.2.5",
     "cssnano": "^5.0.4",
     "esbuild": "^0.12.1",
