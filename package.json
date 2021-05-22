@@ -1,0 +1,32 @@
+{
+  "name": "esbuild-three-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^5.2.5",
+    "cssnano": "^5.0.4",
+    "esbuild": "^0.12.1",
+    "esbuild-loader": "^2.13.1",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.3.0",
+    "postcss-loader": "^5.3.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.33.0",
+    "sass-loader": "^11.1.1",
+    "stats.js": "^0.17.0",
+    "three": "^0.128.0",
+    "webpack": "^5.37.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
