@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack --config webpack.prod.js",
+    "vercel": "vercel"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +23,7 @@
     "postcss": "^8.3.0",
     "postcss-loader": "^5.3.0",
     "postcss-preset-env": "^6.7.0",
+    "purgecss-webpack-plugin": "^4.0.3",
     "sass": "^1.33.0",
     "sass-loader": "^11.1.1",
     "stats.js": "^0.17.0",

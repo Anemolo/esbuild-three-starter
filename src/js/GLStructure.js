@@ -6,8 +6,8 @@ export class GLStructure {
     this.container = container;
     this.canvas = canvas;
     this.vp = {
-      width: container.offsetWidth,
-      height: container.offsetHeight,
+      width: canvas.offsetWidth,
+      height: canvas.offsetHeight,
       dpr: Math.min(window.devicePixelRatio, 2),
     };
 
@@ -60,8 +60,8 @@ export class GLStructure {
     this.renderer.render(this.scene, this.camera);
   }
   onResize() {
-    this.vp.width = this.container.offsetWidth;
-    this.vp.height = this.container.offsetHeight;
+    this.vp.width = this.canvas.offsetWidth;
+    this.vp.height = this.canvas.offsetHeight;
     this.vp.dpr = Math.min(window.devicePixelRatio, 2);
 
     this.renderer.setSize(this.vp.width, this.vp.height, false);
