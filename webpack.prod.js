@@ -15,7 +15,6 @@ const { ESBuildPlugin, ESBuildMinifyPlugin } = require("esbuild-loader");
 const BundleAnalyzerPlugin =
   require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-new HtmlWebpackPlugin();
 const PATHS = {
   build: "./dist",
   src: path.join(__dirname, "src"),
